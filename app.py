@@ -8,7 +8,7 @@ fake = Faker('pt_BR')
 
 # Configurações da página
 st.set_page_config(
-    page_title="Data Fake - Leandro Souza",
+    page_title="Manager Data Fake",
     page_icon="📊",
     layout="centered",
 )
