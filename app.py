@@ -229,5 +229,5 @@ if st.button('**Gerar Dados**', type="primary"):
     )
 
 # Rodapé
-st.markdown("---")
-st.markdown("Desenvolvido com ❤️ por **Leandro Souza** | [LinkedIn](https://www.linkedin.com/in/leandro-souza-bi/)")
+# st.markdown("---")
+# st.markdown("Desenvolvido com ❤️ por **Leandro Souza** | [LinkedIn](https://www.linkedin.com/in/leandro-souza-bi/)")
