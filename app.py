@@ -13,6 +13,16 @@ st.set_page_config(
     layout="centered",
 )
 
+def ocult_menu():
+    hide_st_style = """
+                <style>
+                #MainMenu {visibility: hidden;}
+                header {visibility: hidden;}
+                </style>
+                """
+    st.markdown(hide_st_style, unsafe_allow_html=True)
+ocult_menu()
+
 # Função para gerar dados falsos baseados na categoria selecionada
 def gerar_dados_falsos(categoria, num_linhas, num_colunas):
     dados = []
