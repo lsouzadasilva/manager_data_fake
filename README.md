@@ -32,8 +32,7 @@ Gerador de dados fictícios para diversas categorias, criado com Streamlit e Fak
 - Pandas (manipulação de dados)
 
 ## 📦 Instalação
-
-1. Clone o repositório:
+Clone o repositório:
 bash
 git clone https://github.com/seu-usuario/data-fake-generator.git
 
