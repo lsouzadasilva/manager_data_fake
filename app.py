@@ -191,6 +191,7 @@ st.title('📊 Data Fake')
 st.markdown("""
     **Desenvolvido por Leandro Souza**  
     [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandro-souza-bi/)
+    [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lsouzadasilva)
 """)
 
 st.markdown("---")
@@ -237,7 +238,3 @@ if st.button('**Gerar Dados**', type="primary"):
         file_name=f'dados_falsos_{categoria}.csv',
         mime='text/csv',
     )
-
-# Rodapé
-# st.markdown("---")
-# st.markdown("Desenvolvido com ❤️ por **Leandro Souza** | [LinkedIn](https://www.linkedin.com/in/leandro-souza-bi/)")
